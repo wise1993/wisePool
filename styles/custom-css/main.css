@@ -252,6 +252,10 @@ body {
    .ml-auto, .mx-auto {
        margin-right: 0em;
    }
+
+   .text-xs {
+      font-size: 27px;
+   }
 }
 
 @media screen  and (min-width: 320px) and (max-width: 360px) {
