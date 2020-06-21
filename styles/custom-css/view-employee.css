@@ -301,6 +301,54 @@
 }
 
 
+@media (min-width: 768px) {
+   .search-table button {
+       background: #FFFFFF;
+       height: 38px;
+       width: 46px;
+       margin-right: -7px;
+       border: navajowhite;
+       border-radius: 5px 0 0 5px;
+       padding-bottom: 13px;
+   }
+
+   .text-edit {
+       padding-top: 0.5em;
+   }
+
+   .crd {
+       width: 100%;
+   }
+
+   .table-body {
+       padding-right: 3rem !important;
+       padding-left: 1rem !important;
+   }
+
+   .card-cont {
+       margin: 1em -1em 0em 0em;
+   }
+
+   .mb-4-justify {
+       padding-bottom: 1.5em;
+       padding: 2em 0px 20px 0px;
+   }
+}
+
+
+@media (min-width: 1280px) {
+   .pl-xl-5, .px-xl-5 {
+       padding-right: 2rem !important;
+       padding-left: 3rem !important;
+   }
+}
+
+@media (min-width: 820px) {
+   .table-body {
+       padding-right: 3rem !important;
+       padding-left: 2rem !important;
+   }
+}
 
 @media screen and (min-width:320px) and (max-width:760px) {
 
@@ -341,7 +389,7 @@
    .table thead th {
        vertical-align: bottom;
        border-bottom: 2px solid #e3e6f0;
-       font-size: 10px;
+       font-size: 16px;
        padding: 0.5rem;
        font-weight: bolder;
        color: #000000;
@@ -349,10 +397,10 @@
    }
 
    .table td, .table th {
-       padding: 9px;
+       /* padding: 9px; */
        vertical-align: top;
        border-top: 1px solid #e3e6f0;
-       font-size: 10px;
+       font-size: 16px;
    }
 
    .table-img {
@@ -421,7 +469,7 @@
    }
 
    .search-table button {
-       padding-bottom: 3px;
+       padding-bottom: 14.2px;
    }
 
    .mt-4, .my-4 {
