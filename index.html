@@ -73,34 +73,37 @@
         </div>
     </div>
     <!-- Top-Nav End -->
-    <div class="container-fluid mt-4">
 
-        <div class="row">
-            <!-- SideBar -->
-            <div class="col-lg-3 col-xl-2 d-md-block sticky-top">
-                <div class="sidenav sidenav__unactive" id="sideNav">
-                    <div class="logo__wrapper">
-                        <div class="d-flex justify-content-center align-items-center logo__image">
-                            <img src="../../img/navLogo.svg" alt="" />
-                        </div>
-                    </div>
-                    ​
-                    <ul class="sidenav_links d-sm">
-                        <li><a href="#">Dashboard</a></li>
-                        <li><a href="#">Verification</a></li>
-                        <li><a href="#">Employers</a></li>
-                        <li><a href="#" class="active">Employees</a></li>
-                        <li><a href="#">Messages</a></li>
-                        <li><a href="#">Support</a></li>
-                        <li><a href="#">FAQs</a></li>
-                        <li><a href="#">Settings</a></li>
-                    </ul>
+     <!-- SideBar -->
+     <div class="col-lg-3 col-xl-2 d-md-block sticky-top">
+        <div class="sidenav sidenav__unactive" id="sideNav">
+            <div class="logo__wrapper">
+                <div class="d-flex justify-content-center align-items-center logo__image">
+                    <img src="../../img/navLogo.svg" alt="" />
                 </div>
-                ​
-                <div id="body__click"></div>
             </div>
-            <!-- SideBar End-->
+            ​
+            <ul class="sidenav_links d-sm">
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Verification</a></li>
+                <li><a href="#">Employers</a></li>
+                <li><a href="#" class="active">Employees</a></li>
+                <li><a href="#">Messages</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </div>
+        ​
+        <div id="body__click"></div>
+    </div>
+    <!-- SideBar End-->
 
+    <!-- Content Body -->
+    <div class="container-fluid mt-4">
+        
+        <div class="row row-cont">
+           
             <div class="col-lg-9 ml-sm-auto col-xl-10 pl-lg-0 pr-lg-5 px-xl-5 table-body">
 
                 <!-- Employee Hires -->
@@ -184,11 +187,6 @@
                             <button type="submit"><i class="fa fa-search"></i></button>
                             <input type="text" placeholder="Search employee" name="search">
                         </form>
-
-                        <!-- <form _lpchecked="1">
-                            <input class="form-control mr-sm-2 p-2 search-input" type="text"
-                                placeholder="Search Employer" aria-label="Search">
-                        </form> -->
                     </div>
                 </div>
                 <div class="table-wrapper-scroll-y my-custom-scrollbar">
@@ -397,6 +395,9 @@
             </div>
             <!-- Tables end -->
         </div>
+
+    </div>
+    <!-- Content Body End -->
 
         <!-- Optional JavaScript -->
         <script src="../js/custom-js/side-nav.js"></script>

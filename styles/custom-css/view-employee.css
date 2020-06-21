@@ -1,3 +1,10 @@
+
+body {
+   background: #E5E5E5;
+   overflow: hidden;
+}
+
+
 .employee-chart {
    background: #afa6a6;
    border-radius: 5px;
@@ -13,6 +20,8 @@
 
 .mt-4, .my-4 {
    margin-top: 0.5rem !important;
+   background:  #E5E5E5;
+   overflow: hidden;
 }
 
 .container-head h2 {
@@ -151,12 +160,13 @@
 
 .my-custom-scrollbar {
    position: relative;
-   height: 280px;
+   height: 440px;
    overflow: auto;
    }
 
 .table-wrapper-scroll-y {
    display: block;
+   background: #fff;
 }
 .head-txt th {
    padding: 1.5rem;
@@ -249,12 +259,6 @@
 .nav-topedit {
    padding-top: 5em;
 }
-/*  
-.table-body {
-   padding-right: 2.5rem !important;
-   padding-left: 1rem !important;
-}
- */
 
 .emp-card {
    margin: 3rem 1.8rem 1rem 1rem;
@@ -300,9 +304,42 @@
    margin: 2em 0em 2em 0em;
 }
 
+.table-body {
+   padding-left: 1.5rem !important;
+}
 
+@media only screen and (min-width: 1282px ) and (max-width: 1440px){
+   .table-body {
+       padding-left: 2.5rem !important;
+   }
+}
+
+@media only screen and (min-width: 1240px ) and (max-width: 1280px){
+   .table-body {
+           padding-left: 4rem !important;
+       }
+}
+
+@media only screen and (min-width: 1201px ) and (max-width: 1238px){ 
+   .table-body {
+       padding-left: 4.5rem !important;
+   }
+
+}
+
+@media only screen and (min-width: 1065px ) and (max-width: 1197px){ 
+   .table-body {
+       padding-left: 0.5rem !important;
+   }
+
+}
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+
+   body {
+       overflow: auto;
+   }
+
    .search-table button {
        background: #FFFFFF;
        height: 38px;
@@ -346,29 +383,23 @@
 }
 
 
-@media (max-width: 1280px) {
-  
-   /* .pl-xl-5, .px-xl-5 {
-       padding-left: 3rem !important;
-   } */
-}
-
-@media (min-width: 820px) {
-   /* .table-body {
-       padding-right: 3rem !important;
-       padding-left: 2rem !important;
-   } */
-}
-
 @media screen and (min-width:320px) and (max-width:760px) {
+
+   body {
+       overflow: auto;
+   }
 
    .ui-table, .re-table, .dt-table, .user-id, .user-name {
    
        padding-left: 0 !important;
     }
 
+    .table-body {
+       padding-left: 15px !important;
+   }
+
     .hired-txt {
-       padding: 8px 32px 8px 20px !important;
+       padding: 8px 28px 8px 24px !important;
    }
 
    .search-table form {
@@ -407,7 +438,6 @@
    }
 
    .table td, .table th {
-       /* padding: 9px; */
        vertical-align: top;
        border-top: 1px solid #e3e6f0;
        font-size: 16px;
@@ -450,11 +480,6 @@
       font-size: 27px;
    }
 
-   /* .table-body {
-       padding-right: 15px ;
-       padding-left: 15px 
-   }
- */
    .card-cont {
        margin: 1em 0em 0em 0em;
    }
