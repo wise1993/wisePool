@@ -309,7 +309,7 @@
        margin-right: -7px;
        border: navajowhite;
        border-radius: 5px 0 0 5px;
-       padding-bottom: 13px;
+       padding-bottom: 1px;
    }
 
    .text-edit {
@@ -469,7 +469,7 @@
    }
 
    .search-table button {
-       padding-bottom: 14.2px;
+       padding-bottom: 3.2px;
    }
 
    .mt-4, .my-4 {
