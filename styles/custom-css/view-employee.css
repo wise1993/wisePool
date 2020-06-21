@@ -467,6 +467,7 @@ body {
 
    .img-edit {
        display: -webkit-inline-box;
+       padding-top: 1.8rem !important;
    }
 
    .topbar #sidebarToggleTop:active {
