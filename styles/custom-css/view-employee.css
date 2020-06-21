@@ -391,7 +391,7 @@ body {
 
    .ui-table, .re-table, .dt-table, .user-id, .user-name {
    
-       padding-left: 0 !important;
+       padding-left: 10px !important;
     }
 
     .table-body {
@@ -430,17 +430,20 @@ body {
    .table thead th {
        vertical-align: bottom;
        border-bottom: 2px solid #e3e6f0;
-       font-size: 16px;
        padding: 0.5rem;
-       font-weight: bolder;
-       color: #000000;
        line-height: 12px;
+       font-family: 'Poppins';
+       font-style: normal;
+       font-weight: 500;
+       font-size: 14px;
+       align-items: center;
+       color: #353A45;
    }
 
    .table td, .table th {
        vertical-align: top;
        border-top: 1px solid #e3e6f0;
-       font-size: 16px;
+       font-size: 14px;
    }
 
    .table-img {
