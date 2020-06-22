@@ -1,4 +1,3 @@
-
 body {
    background: #E5E5E5;
    overflow: hidden;
@@ -18,9 +17,10 @@ body {
    border: 1px solid #e7e6e6;
 }
 
-.mt-4, .my-4 {
+.mt-4,
+.my-4 {
    margin-top: 0.5rem !important;
-   background:  #E5E5E5;
+   background: #E5E5E5;
    overflow: hidden;
 }
 
@@ -81,7 +81,8 @@ body {
 }
 
 .filter-btn span {
-   padding-right: 6.6em;;
+   padding-right: 6.6em;
+   ;
 }
 
 .emp-text {
@@ -109,7 +110,7 @@ body {
 
 .mb-4-justify {
    padding-bottom: 1.5em;
-   padding: 3px 0px 20px 0px ;
+   padding: 3px 0px 20px 0px;
 }
 
 .view-emp {
@@ -162,19 +163,21 @@ body {
    position: relative;
    height: 440px;
    overflow: auto;
-   }
+}
 
 .table-wrapper-scroll-y {
    display: block;
    background: #fff;
 }
+
 .head-txt th {
    padding: 1.5rem;
 }
 
-.mr-1, .mx-1 {
+.mr-1,
+.mx-1 {
    margin-right: 1.5rem 1.5rem 1.5rem 1.7rem !important;
-   
+
 }
 
 .th-head {
@@ -209,7 +212,9 @@ body {
    padding-left: 24px !important;
 }
 
-.ui-table, .re-table, .dt-table {
+.ui-table,
+.re-table,
+.dt-table {
    font-family: 'Poppins';
    font-style: normal;
    font-weight: normal;
@@ -219,6 +224,7 @@ body {
    color: #ADADAD;
    padding-left: 24px !important;
 }
+
 .available-txt {
    background: #33BEFF;
    border-radius: 5px !important;
@@ -250,7 +256,8 @@ body {
    margin-left: 15px !important;
 }
 
-.fa, .fas {
+.fa,
+.fas {
    font-weight: 900;
    color: #000000;
    font-size: 16px;
@@ -308,26 +315,55 @@ body {
    padding-left: 1.5rem !important;
 }
 
-@media only screen and (min-width: 1282px ) and (max-width: 1440px){
+/* Styles for wrapping the search box */
+.main {
+   width: 24%;
+   margin: auto auto auto 1.5em;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+   padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+   position: absolute;
+   z-index: 2;
+   display: block;
+   width: 2.375rem;
+   height: 2.375rem;
+   line-height: 2.375rem;
+   text-align: center;
+   pointer-events: none;
+   color: #000000;
+}
+
+.form-group {
+   margin-bottom: 0rem;
+}
+
+
+@media only screen and (min-width: 1282px) and (max-width: 1440px) {
    .table-body {
        padding-left: 2.5rem !important;
    }
 }
 
-@media only screen and (min-width: 1240px ) and (max-width: 1280px){
+@media only screen and (min-width: 1240px) and (max-width: 1280px) {
    .table-body {
-           padding-left: 4rem !important;
-       }
+       padding-left: 4rem !important;
+   }
 }
 
-@media only screen and (min-width: 1201px ) and (max-width: 1238px){ 
+@media only screen and (min-width: 1201px) and (max-width: 1238px) {
    .table-body {
        padding-left: 4.5rem !important;
    }
 
 }
 
-@media only screen and (min-width: 1065px ) and (max-width: 1197px){ 
+@media only screen and (min-width: 1065px) and (max-width: 1197px) {
    .table-body {
        padding-left: 0.5rem !important;
    }
@@ -389,16 +425,34 @@ body {
        overflow: auto;
    }
 
-   .ui-table, .re-table, .dt-table, .user-id, .user-name {
-   
-       padding-left: 10px !important;
-    }
+   .ui-table,
+   .re-table,
+   .dt-table,
+   .user-id,
+   .user-name {
 
-    .table-body {
+       padding-left: 10px !important;
+   }
+
+   .main {
+       width: 86%;
+       margin: auto auto auto 1.5em;
+   }
+
+   .form-group {
+       margin-bottom: 0rem;
+   }
+
+   .search-edit {
+       width: 90%;
+       margin-left: 0.5em;
+   }
+
+   .table-body {
        padding-left: 15px !important;
    }
 
-    .hired-txt {
+   .hired-txt {
        padding: 8px 28px 8px 24px !important;
    }
 
@@ -422,7 +476,7 @@ body {
        display: flex;
        padding-top: 2em;
    }
-   
+
    .emp-text {
        padding-top: 2em;
    }
@@ -440,7 +494,8 @@ body {
        color: #353A45;
    }
 
-   .table td, .table th {
+   .table td,
+   .table th {
        vertical-align: top;
        border-top: 1px solid #e3e6f0;
        font-size: 14px;
@@ -476,12 +531,13 @@ body {
        height: 40px;
    }
 
-   .ml-auto, .mx-auto {
+   .ml-auto,
+   .mx-auto {
        margin-right: 0em;
    }
 
    .text-xs {
-      font-size: 27px;
+       font-size: 27px;
    }
 
    .card-cont {
@@ -511,19 +567,21 @@ body {
        padding-bottom: 3.2px;
    }
 
-   .mt-4, .my-4 {
+   .mt-4,
+   .my-4 {
        margin-top: 0.5rem !important;
        padding-right: 20px;
        padding-left: 20px;
    }
 }
 
-@media screen  and (min-width: 320px) and (max-width: 360px) {
+@media screen and (min-width: 320px) and (max-width: 360px) {
    .search-table form {
        margin: auto;
        width: 85%;
        padding-left: 0;
    }
+
    .search-table input {
        width: 78%;
    }
@@ -535,7 +593,7 @@ body {
    .mb-4-justify {
        display: flex;
    }
-   
+
    .emp-text {
        padding-top: 1em;
    }
